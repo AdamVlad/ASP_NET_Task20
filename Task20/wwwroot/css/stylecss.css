@@ -1,0 +1,28 @@
+﻿.table_col {
+    font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
+    font-size: 14px;
+    width: 660px;
+    text-align: center;
+    border-collapse: collapse;
+    color: black;
+}
+
+.table_col th:first-child, .table_col td:first-child {
+    color: black;
+    border-left: 2px solid #F5E1A6;
+}
+
+.table_col th {
+    font-weight: normal;
+    border-bottom: 2px solid #F5E1A6;
+    border-right: 2px solid #F5E1A6;
+    border-left: 2px solid #F5E1A6;
+    padding: 8px 10px;
+}
+
+.table_col td {
+    border-right: 2px solid #F5E1A6;
+    border-left: 2px solid #F5E1A6;
+    padding: 12px 10px;
+    color: black;
+}
